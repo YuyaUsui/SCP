@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@sap/xsenv": "^2.2.0",
+    "@sap/xsjs": "^5.2.0",
+    "request":"^2.88.0",
+    "sync-request":"^6.1.0",
+	"@sap/hdbext":"^6.1.1",
+	"express": "^4.17.1",
+	"passport":"^0.4.0",
+	"@sap/xssec":"^2.0.7",
+	"basic-auth-connect":"^1.0.0"
+  },
+  "description": "my description",
+  "devDependencies": {
+    "@sap/xsjs-test": "^3.0.2"
+  },
+  "files": [],
+  "main": "server.js",
+  "name": "nodem",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node testrun.js"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/web/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/myapp/(.*)$",
+      "target": "$1",
+      "destination": "nodem_api"
+    }
+  ]
+}
